@@ -1,0 +1,6 @@
+y = []
+for i in range(9):
+    x = int(input())
+    y.append(x)
+print(max(y))
+print(y.index(max(y)) + 1)
